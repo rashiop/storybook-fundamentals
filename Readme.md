@@ -27,3 +27,16 @@ npm run lint
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Steps
+1. install depedencies
+2. install storybook
+- scripts, dep will be auto generated
+- main.js -> storybook configuration
+  * stories: locate story files
+- preview.js -> sorting files & group if needed, add css
+
+```
+vue add storybook
+```

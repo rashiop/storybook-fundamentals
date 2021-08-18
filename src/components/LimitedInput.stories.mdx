@@ -1,0 +1,21 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import LimitedInput from "./LimitedInput";
+
+<Meta title="Form/LimitedInput" />
+
+# LimitedInput use case
+
+<Props of={LimitedInput} />
+
+Use this component for form input with length validation.
+Since it changing it's color when it's too long,
+it will notify user to change the input before they click submit
+
+<Preview>
+  <Story name="Simplest Story">
+    {{
+      components: { LimitedInput },
+      template: "<LimitedInput />",
+    }}
+  </Story>
+</Preview>

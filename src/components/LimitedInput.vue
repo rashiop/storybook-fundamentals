@@ -1,7 +1,11 @@
 <template>
   <div class="p-3 rounded-md bg-gray-200 inline-block">
+    <label for="limited-input">Limited input</label>
     <input
+      name="limited-input"
       class="border px-2"
+      placeholder="Input text"
+      :disabled="disabled"
       :class="isTextTooLong ? 'border-red-500 bg-red-200' : undefined"
       v-model="val"
     />
